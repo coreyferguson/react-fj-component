@@ -1,0 +1,17 @@
+{
+  "name": "react-fj-component",
+  "description": "Hello testing compoenent",
+  "main": "build/index.js",
+  "authors": [
+    "[object Object]"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/digitaleye/react-fj-component",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
