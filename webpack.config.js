@@ -1,11 +1,13 @@
 var path = require('path');
-module.exports = {
+module.exports = [{
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'index.js',
         libraryTarget: 'commonjs2'
     },
+
+
     module: {
         rules: [
             {
@@ -23,4 +25,32 @@ module.exports = {
     },
     externals: {
         'react': 'commonjs react' }
-};
+}, {
+    entry: './src/index.js',
+    output: {
+        path: path.resolve(__dirname, 'build'),
+        filename: 'indexAMD.js',
+        libraryTarget: 'amd'
+    },
+
+
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                include: path.resolve(__dirname, 'src'),
+                exclude: /(node_modules|bower_components|build)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['env']
+                    }
+                }
+            }
+        ]
+    },
+    externals: {
+        'react': 'amd react' }
+}
+];
+

@@ -1,5 +1,4 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
+define(["react"], function(__WEBPACK_EXTERNAL_MODULE_0__) { return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -71,7 +70,7 @@ module.exports =
 /* 0 */
 /***/ (function(module, exports) {
 
-module.exports = require("react");
+module.exports = __WEBPACK_EXTERNAL_MODULE_0__;
 
 /***/ }),
 /* 1 */
@@ -124,4 +123,4 @@ var Hello = function (_React$Component) {
 exports.default = Hello;
 
 /***/ })
-/******/ ]);
+/******/ ])});;
