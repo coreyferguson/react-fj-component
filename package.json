@@ -1,6 +1,6 @@
 {
   "name": "react-fj-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Hello testing compoenent",
   "main": "build/index.js",
   "peerDependencies": {
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "react": "^15.5.4",
+    "react-dom": "^15.6.1",
     "webpack": "^2.6.1"
   },
   "scripts": {
