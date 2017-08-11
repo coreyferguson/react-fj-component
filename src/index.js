@@ -1,9 +1,13 @@
 import React from 'react';
-class Hello extends React.Component {
+export class HelloReactComponent extends React.Component {
     render() {
         return (
             <div>This is Hello!</div>
     );
     }
 }
-export default Hello;
+export default class Hello{
+    constructor(elem){
+        ReactDOM.render(  <HelloReactComponent />, elem)
+    }
+}
