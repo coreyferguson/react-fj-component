@@ -1,6 +1,6 @@
 {
   "name": "react-fj-component",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hello testing compoenent",
   "main": "build/index.js",
   "peerDependencies": {
