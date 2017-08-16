@@ -13,6 +13,6 @@ It can be consumed doing `npm link`.
 OR 
 It can be consumed by doing `bower link` `https://bower.io/docs/api/#link`
 
->react-fj-component has been published on npm and bower, so `npm install react-fj-component` and `bower install react-fj-component` can be done based on the requirement.
+> react-fj-component has been published on npm and bower, so when **consuming** we can run `npm install react-fj-component` and `bower install react-fj-component` based on the requirement.
 
 
