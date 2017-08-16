@@ -1,4 +1,4 @@
-####**react-fj-component**#### is a reusable component built in react and bundled through webpack. 
+**react-fj-component** is a reusable component built in react and bundled through webpack. 
 
 Clone the repository from github through git clone. Then run webpack, it will produce two files in the **build** folder:
  
